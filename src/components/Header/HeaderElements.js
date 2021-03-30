@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Navbar = styled.nav`
   height: 60px;
@@ -13,6 +13,7 @@ export const NavbarWrapper = styled.nav`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 0 1rem;
   align-items: center;
 `;
 
@@ -20,7 +21,6 @@ export const Logo = styled(Link)`
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
-  font-style: italic;
 `;
 
 export const NavbarLinks = styled.div``;
